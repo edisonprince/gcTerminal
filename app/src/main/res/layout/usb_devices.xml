@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Toolbar for navigation or title -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <!-- Title TextView for USB Devices -->
+    <TextView
+        android:id="@+id/usb_devices_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USB Devices:"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <!-- RecyclerView for listing USB devices -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/usb_devices_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usb_devices_text_view"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:scrollbars="vertical" />
+
+</RelativeLayout>

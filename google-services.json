@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "659574456924",
+    "project_id": "gc-terminal",
+    "storage_bucket": "gc-terminal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659574456924:android:691ff82706db62e02c1c99",
+        "android_client_info": {
+          "package_name": "com.edison.gcterminal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDuzWobtYBqsb8ZekK6DTi1472hPj5-io"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
